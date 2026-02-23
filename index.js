@@ -11,9 +11,8 @@ async function data(username) {
         document.getElementById("followers").textContent = `Followers: ${res.followers}`;
         document.getElementById("following").textContent = `Following: ${res.following}`;
         document.getElementById("repos").textContent = `Repositories: ${res.public_repos}`;
-
     } catch (err) {
-        console.log("Invalid username", err)
+        alert("Invalid username", err)
     }
 }
 searchbtn.addEventListener("click", () => {
