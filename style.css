@@ -5,16 +5,28 @@
 }
 
 body {
-    background: linear-gradient(135deg, #20a97b, #3a0eb5, #c76214);
+    background: linear-gradient(135deg, #1e1e1e, #2a2a2a, #3a3a3a);
+    font-style: italic;
+}
+
+hr {
+    width: 1518px;
+    margin-top: 10px;
 }
 
 .nav header h3 {
     color: #fff;
+    font-size: larger;
+    font-style: italic;
+    padding-top: 6px;
 }
 
 .nav header h4 {
     color: #fff;
-    margin: 14px 0 0 14px;
+    margin: 18px 0 0 64px;
+    font-style: italic;
+    font-size: larger;
+    font-weight: 600;
 }
 
 .nav {
@@ -46,8 +58,9 @@ body {
 
 #search {
     margin-left: 500px;
+    margin-top: 10px;
     padding: 0 0 0 20px;
-    background-color: rgba(59, 63, 172, 0.821);
+    background-color: rgba(128, 128, 128, 0.233);
     border: 1px solid rgb(12, 11, 11);
 }
 
@@ -61,14 +74,17 @@ header input {
 }
 
 .container {
-    height: 800px;
+    height: 2000px;
     width: 1200px;
     margin: 25px 0 0 150px;
 }
 
 .container .name h3 {
-    margin: 25px 0 0 15px;
+    text-align: center;
     color: white;
+    font-size: larger;
+    font-style: italic;
+    font-weight: 600;
 }
 
 .box {
@@ -78,7 +94,14 @@ header input {
     margin-top: 15px;
     padding-top: 10px;
     height: 100px;
-    background-color: #0d4782;
+    background: #3a3a3a;
+    transition: 0.5s, ease;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.box:hover {
+    background: #191a1a;
 }
 
 .box p {
@@ -140,16 +163,41 @@ header input {
     margin-top: 20px;
     height: 350px;
     max-width: 1400px;
-    width: 92%;
-    border: 1px solid rgba(218, 121, 24, 0.703);
-    margin-left: 100px;
+    width: 98%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(128, 128, 128, 0.178);
+    transition: 0.5s, ease;
+    cursor: pointer;
+    backdrop-filter: blur(15px);
+
+}
+
+.card:hover {
+    box-shadow: 0 5px 15px rgba(50, 100, 207, 0.3);
+    border: 1px solid blue;
+
+}
+
+.image {
+    width: 160px;
+    height: 160px;
+
+}
+
+.card {
+    overflow: hidden;
+    padding-left: 10px;
 }
 
 .card img {
-    height: 175px;
-    width: 200px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
     margin-top: 10px;
-    padding-left: 15px;
 }
 
 #name {
@@ -160,13 +208,15 @@ header input {
 }
 
 #search-btn {
-    margin-top: 5px;
-    background-color: #3a0eb5;
+    margin-top: 10px;
+    background-color: rgba(121, 158, 170, 0.27);
     color: white;
     margin-left: 9px;
     cursor: pointer;
-    border-radius: 8px;
-    border: 1px solid rgb(12, 11, 11);
+    border-radius: 6px;
+    padding: 2px 8px;
+    border: none;
+    height: 40px;
 }
 
 .flex {
@@ -179,8 +229,10 @@ header input {
     height: auto;
     width: auto;
     margin-top: 10px;
-    color: #fff;
+    color: lightskyblue;
     padding-left: 15px;
+    font-size: larger;
+    font-weight: 500;
 }
 
 .stats {
@@ -220,7 +272,8 @@ header input {
     height: 300px;
     width: auto;
     border-radius: 5px;
-    display: grid;
+    padding-left: auto;
+    padding-right: auto;
     grid-template-columns: repeat(auto-fit, 250px);
     gap: 20px;
     padding-top: 10px;
@@ -228,8 +281,35 @@ header input {
 }
 
 .repodetails {
-    border: 1px solid pink;
+    border: 1px solid rgb(248, 211, 217);
     border-radius: 5px;
-    padding-left: 50px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
     cursor: pointer;
+    width: 900px;
+    margin-top: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    transition: 0.3s ease;
+    background: linear-gradient(135deg, #1e2228, #2a3038);
+}
+
+.repodetails:hover {
+    border: 1px solid rgba(60, 60, 237, 0.6);
+    transform: translateY(-7px);
+    box-shadow: 0 5px 15px rgba(248, 211, 217, 0.3);
+}
+
+.repo-card:active {
+    transform: scale(0.97);
+}
+
+.msg h2 {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 18px;
+    background: linear-gradient(90deg, rgb(13, 213, 10), blue);
+    background-clip: text;
+    color: transparent;
 }
