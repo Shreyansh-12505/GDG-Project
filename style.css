@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #20a97b, #3a0eb5, #c76214);
+}
+
+.nav header h3 {
+    color: #fff;
+}
+
+.nav header h4 {
+    color: #fff;
+    margin: 14px 0 0 14px;
+}
+
+.nav {
+    max-width: 1540px;
+    width: 99%;
+}
+
+.nav header {
+    display: flex;
+}
+
+.nav header img {
+    margin: 0 5px 0 8px;
+}
+
+.nav header h3 {
+    margin-top: 14px;
+    margin-left: 5px;
+}
+
+.small-box {
+    border-radius: 7px;
+}
+
+.small-box img {
+    padding-top: 5px;
+
+}
+
+#search {
+    margin-left: 500px;
+    padding: 0 0 0 20px;
+    background-color: rgba(59, 63, 172, 0.821);
+    border: 1px solid rgb(12, 11, 11);
+}
+
+header input {
+    height: 40px;
+    width: 180px;
+    color: #fff;
+    background-color: rgb(12, 11, 11);
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.container {
+    height: 800px;
+    width: 1200px;
+    margin: 25px 0 0 150px;
+}
+
+.container .name h3 {
+    margin: 25px 0 0 15px;
+    color: white;
+}
+
+.box {
+    border-radius: 10px;
+    color: white;
+    border: 1px solid rgb(12, 11, 11);
+    margin-top: 15px;
+    padding-top: 10px;
+    height: 100px;
+    background-color: #0d4782;
+}
+
+.box p {
+    padding-left: 10px;
+}
+
+.btn1 {
+    margin: 22px 0 0 10px;
+    color: white;
+    background-color: #0860CA;
+    border-radius: 12px;
+    border: none;
+    padding: 4px 20px;
+    font: inherit;
+}
+
+.btn2 {
+    color: white;
+    background-color: #0860CA;
+    margin: 22px 0 0 20px;
+    border-radius: 12px;
+    padding: 4px 20px;
+    font: inherit;
+    border: none;
+}
+
+.smalldiv {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+.small1 {
+    display: flex;
+    gap: 10px;
+    margin-top: 13px;
+}
+
+.small1 span {
+    margin-top: 8px;
+    color: white;
+    font-size: small;
+}
+
+.smalldiv footer ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    color: rgb(222, 222, 222);
+}
+
+.smalldiv footer p {
+    color: rgb(222, 222, 222);
+    margin-top: 2px;
+    text-align: center;
+}
+
+.card {
+    margin-top: 20px;
+    height: 350px;
+    max-width: 1400px;
+    width: 92%;
+    border: 1px solid rgba(218, 121, 24, 0.703);
+    margin-left: 100px;
+}
+
+.card img {
+    height: 175px;
+    width: 200px;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+#name {
+    color: white;
+    height: 30px;
+    width: auto;
+    margin-top: 30px;
+}
+
+#search-btn {
+    margin-top: 5px;
+    background-color: #3a0eb5;
+    color: white;
+    margin-left: 9px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid rgb(12, 11, 11);
+}
+
+.flex {
+    display: flex;
+    gap: 190px;
+}
+
+#bio {
+    padding-top: 25px;
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+    color: #fff;
+    padding-left: 15px;
+}
+
+.stats {
+    display: flex;
+    margin-top: 20px;
+    gap: 70px;
+}
+
+#followers {
+    height: 30px;
+    width: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 12px;
+}
+
+#following {
+    height: 30px;
+    width: 30px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+#repos {
+    height: 30px;
+    width: 30px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+#repocard {
+    margin-top: 20px;
+    height: 300px;
+    width: auto;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    gap: 20px;
+    padding-top: 10px;
+    color: whitesmoke;
+}
+
+.repodetails {
+    border: 1px solid pink;
+    border-radius: 5px;
+    padding-left: 50px;
+    cursor: pointer;
+}

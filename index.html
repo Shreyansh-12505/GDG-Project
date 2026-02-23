@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="nav">
+    <header>
+      <div class="small-box"><img src="three bars.png" height="40" width="40"></div>
+      <img src="github_image.png" height="50" width="50">
+      <h3>Dashboard</h3>
+
+      <input type="text" id="search" placeholder="Type to search profile">
+      <button id="search-btn">Search</button>
+      <h4> Click on this button to search anyone's github profile</h4>
+    </header>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="name">
+      <h3>Home</h3>
+    </div>
+    <div class="box">
+      <p>Ask Anything</p>
+      <button class="btn1">Ask</button>
+      <button class="btn2">All repositories</button>
+    </div>
+    <div class="card" id="profileCard">
+      <div class="flex"><img id="avatar">
+        <h3 id="name">Name</h3>
+        <div class="stats">
+          <span id="followers">Followers</span>
+          <span id="following">Following</span>
+          <span id="repos">Repositories</span>
+        </div>
+      </div>
+      <p id="bio">BIO</p>
+    </div>
+
+    <div id="repocard">
+    </div>
+  </div>
+  <div class="last">
+    <div class="smalldiv">
+      <div class="small1">
+        <img src="github_image.png" height="30" width="30">
+        <span>
+          © 2026 GitHub, Inc.
+        </span>
+      </div>
+      <footer>
+        <ul>
+          <li>Terms</li>
+          <li>Privacy</li>
+          <li>Security</li>
+          <li>Status</li>
+          <li>Community</li>
+          <li>Docs</li>
+          <li>Contact</li>
+          <li>Manage Cookies</li>
+        </ul>
+        <p>Do not share my personal information</p>
+      </footer>
+    </div>
+  </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
